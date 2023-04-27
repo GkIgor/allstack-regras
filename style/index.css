@@ -5,8 +5,96 @@ body {
   background-color: white;
 }
 
-@media only screen and (max-width: 300px) {
+@media only screen and (max-width: 350px) {
   #complemento-oculto {
     display: none;
   }
 }
+
+/*Custom*/
+
+/* Definir paleta de cores */
+:root {
+  --azul-claro: #add8e6;
+  --cinza-escuro: #333333;
+  --teal: #087789;
+}
+
+/* Definir fontes */
+body {
+  font-family: Arial, sans-serif;
+}
+
+h1, h3 {
+  font-family: Georgia, serif;
+}
+
+/* Estilizar seção Boas Vindas */
+#boas-vindas {
+  background-color: var(--azul-claro);
+  padding: 20px;
+}
+
+#boas-vindas p {
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+/* Estilizar seção Convite */
+#convite {
+  background-color: var(--cinza-escuro);
+  color: white;
+  padding: 20px;
+}
+
+#convite h3 {
+  font-size: 24px;
+}
+
+#convite a {
+  color: var(--azul-claro);
+  font-size: 20px;
+}
+
+/* Estilizar seção Novidades e Regras */
+section > div {
+  margin-bottom: 30px;
+  padding: 20px;
+}
+
+section h3 {
+  font-size: 24px;
+}
+
+section hr {
+  border: none;
+  border-bottom: 1px solid var(--azul-claro);
+  margin: 20px 0;
+}
+p > a {
+  color: var(--teal);
+  font-weight: bold;
+}
+section strong {
+  font-weight: bold;
+}
+
+section h4 {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+section p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+section ol {
+  padding-left: 30px;
+}
+
+section li {
+  margin-bottom: 10px;
+}
+
+
