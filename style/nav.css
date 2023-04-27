@@ -1,9 +1,16 @@
+:root {
+  --azul-claro: #87CEFA;
+  --azul-claro-transparente: #ADD8E6;
+  --verde-musgo: rgba(15, 134, 170, 0.699);
+  --azul-mais-escuro: #006699;
+  --azul: #005577;
+}
+
 .navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: rgba(15, 134, 170, 0.699);
-  color: #fff;
+  background-color: var(--azul-mais-escuro);
   padding: 0.8em;
 }
 
@@ -102,7 +109,7 @@
 
   .nav-item a:hover {
     text-decoration: none;
-    background-color: rgb(33, 73, 73);
+    background-color: var(--azul);
     color: #fff;
     
   }
