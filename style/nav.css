@@ -4,7 +4,7 @@
   align-items: center;
   background-color: rgba(15, 134, 170, 0.699);
   color: #fff;
-  padding: 1em;
+  padding: 0.8em;
 }
 
 .navbar-nav {
@@ -16,6 +16,7 @@
 
 .nav-item {
   margin: 0 10px;
+  padding: 0.7em;
 }
 
 .nav-item a {
@@ -73,6 +74,9 @@
 
 /* / Dispositivos médios (tablets com 768px ou mais) */
 @media only screen and (min-width: 700px){
+  .navbar {
+    padding: 0.2em;
+  }
   .navbar-toggler {
     display: none;
   }
@@ -86,5 +90,20 @@
     flex-direction: row;
     justify-content: space-around;
     margin: 0 auto;
+  }
+
+  .nav-item a {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 1em 1.5em;
+    transition: 650ms;
+  }
+
+  .nav-item a:hover {
+    text-decoration: none;
+    background-color: rgb(33, 73, 73);
+    color: #fff;
+    
   }
 }
