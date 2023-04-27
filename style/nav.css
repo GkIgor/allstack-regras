@@ -2,9 +2,9 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #333;
+  background-color: rgba(15, 134, 170, 0.699);
   color: #fff;
-  padding: 10px;
+  padding: 1em;
 }
 
 .navbar-nav {
@@ -21,6 +21,7 @@
 .nav-item a {
   color: #fff;
   text-decoration: none;
+  font-size: 1.2em;
 }
 
 .navbar-toggler {
@@ -67,3 +68,21 @@
   display: flex;
   flex-direction: column;
 }
+
+
+
+
+/* Dispositivos extra small (telefones em modo retrato, com menos de 576px) */
+@media (max-width: 575.98px) { ... }
+
+/* / Dispositivos small (telefones em modo paisagem, com 576px ou mais) */
+@media (min-width: 576px) and (max-width: 767.98px) { ... }
+
+/* / Dispositivos médios (tablets com 768px ou mais) */
+@media (min-width: 768px) and (max-width: 991.98px) { ... }
+
+/* Dispositivos large (desktops com 992px ou mais) */
+@media (min-width: 992px) and (max-width: 1199.98px) { ... }
+
+/* / Dispositivos extra large (desktops grandes com 1200px ou mais) */
+@media (min-width: 1200px) { ... }
